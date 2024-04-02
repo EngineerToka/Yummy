@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+     <!-- Favicon -->
+     <link rel="icon" href="Images/logo.png" />
+      <!-- Bootstap css-->
+      <link rel="stylesheet"  href="Css/bootstrap.min.css"/>
+      <!-- Fontawesom -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Customize CSS -->
+      <link rel="stylesheet"  href="Css/main.css"/>
+</head>
+<body>
+  <nav class="mainSideNav d-flex position-fixed top-0 bottom-0 " >
+   
+    <div class=" sideNavList text-white p-2 ">
+     <ul class=" options ">
+      <a href="index.html"><li class="my-3 list-unstyled">Home</li></a> 
+      <a href="search.html"><li class="my-3 list-unstyled">Search</li></a> 
+       <a href="catgrories.html"><li>Categories</li></a>
+       <a href="area.html"><li class="my-3">Area</li></a>
+       <a href="ingradients.html"><li>Ingredients</li></a>
+      <a href="contact.html"> <li class="my-3" >Contact Us</li></a>
+       </ul>
+       <ul class="socialMedia mt-5">
+       <i class="fa-brands fa-facebook"></i>
+       <i class="fa-brands fa-twitter"></i>
+       <i class="fa-solid fa-globe"></i>
+       <p>Copyright Â© 2019 All Rights Reserved.</p>
+     </ul>
+    </div>
+    
+    <div class="sideNavLogo text-center ">
+     <img src="Images/logo.png" class="w-100 p-2 " />
+     <i class="fa-solid fa-bars fs-3  d-flex h-75 justify-content-center align-items-center bar"></i>
+     <i class="fa-solid fa-xmark d-none h-75 justify-content-center align-items-center fs-3"></i>
+     <a href=""><i class="fa-solid fa-globe my-3"></i></a>
+     <a href="" class="d-block"><i class="fa-solid fa-share-nodes "></i></a>
+    </div>
+   
+   </nav>
+    
+    <!-- Container to display meal cards -->
+    <div id="area-container" class="meal-container container mx-auto row"></div>
+   
+   <!-- Loading spinner -->
+   <div id="loading-spinner" role="status">
+    <h1>Cooking in progress</h1>
+      <div id="cooking">
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div id=area>
+              <div id="sides">
+                  <div id="pan"></div>
+                  <div id="handle"></div>
+              </div>
+              <div id="pancake">
+                  <div id="pastry"></div>
+              </div>
+          </div>
+  </div>
+  </div>
+
+
+
+    
+     <!-- Bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js" ></script>
+  <!-- jQuery -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <!-- Customize js -->
+  <script src="js/main.js" ></script>
+  <script src="js/Area.js"></script>
+</body>
+</html>
